@@ -1,0 +1,15 @@
+.App {
+
+
+	&__wrapper {
+		display: flex;
+		min-height: 100vh;
+	}
+
+	&__sidebar-wrapper {
+		width: 240px;
+		display: flex;
+	}
+
+	&__header-and-content-wrapper {}
+}

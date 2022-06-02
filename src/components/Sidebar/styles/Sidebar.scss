@@ -1,0 +1,55 @@
+.sidebar {
+	flex: 1 1 auto;
+	background: #091336;
+	height: 100%;
+	padding: 20px 12px 20px 12px;
+	&__logo-wrapper {
+		max-width: 109px;
+		max-height: 28px;
+	}
+}
+
+
+.navigation {
+
+
+	&__wrapper {
+		margin-top: 32px;
+	}
+
+	&__item {
+	}
+
+	&__svg {
+		fill: rgba(255, 255, 255, 0.6);
+	}
+
+	&__link {
+		display: flex;
+		align-items: center;
+		height: 52px;
+		column-gap: 12px;
+		font-weight: 500;
+		font-size: 16px;
+		color: rgba(255, 255, 255, 0.6);
+		&:hover{
+			color: #FFFFFF;
+		}
+		&:hover .navigation__svg{
+			fill: #FFFFFF
+		}
+	}
+
+	&__link-text {
+		font-weight: 500;
+	}
+}
+
+.button {
+	&__wrapper{
+
+	}
+	&__icon {
+		
+	}
+}
